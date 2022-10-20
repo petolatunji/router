@@ -1,0 +1,69 @@
+.single {
+  display: flex;
+  gap: 50px;
+}
+
+.content {
+  flex: 5;
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
+
+.cimg {
+  width: 100px;
+  height: 300px;
+  object-fit: cover;
+}
+
+.user {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  font-size: 14px;
+}
+.simg {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+.username {
+  font-weight: bold;
+}
+
+.pd {
+  color: black;
+}
+
+.edit {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 5px;
+}
+
+.edt {
+  height: 20px;
+  width: 20px;
+  color: green;
+  cursor: pointer;
+}
+.del {
+  height: 20px;
+  width: 20px;
+  cursor: pointer;
+}
+
+.sTitle {
+  font-size: 42px;
+  color: #333;
+}
+
+.sPara {
+  text-align: justify;
+  line-height: 30px;
+  font-size: 16px;
+  color: black;
+}
